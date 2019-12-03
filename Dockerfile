@@ -1,5 +1,5 @@
 #use node based image
-FROM node:10
+FROM junjiewei/nodeapp
 
 #Expose on port 80
 EXPOSE 80
