@@ -4,7 +4,7 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello NodeApp!! \n");
+  response.end("Hello, this is just an simple NodeJS APP from Chris... \n");
 });
 
 server.listen(80);
